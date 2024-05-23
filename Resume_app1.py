@@ -49,7 +49,7 @@ def extract_skills(resume_text):
     tokens = [token.text for token in nlp_text if not token.is_stop] # removing stop words and implementing word tokenization
             
     
-    data = pd.read_csv(r"D:\Resumes_project-20240522T153441Z-001\skills.csv") # reading the csv file
+    data = pd.read_csv(r"skills.csv") # reading the csv file
             
     
     skills = list(data.columns.values)# extract values
