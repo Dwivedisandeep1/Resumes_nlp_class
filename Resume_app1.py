@@ -4,8 +4,6 @@ import numpy as np
 import streamlit as st
 from io import BytesIO
 import click
-!pip install spacy
-import spacy
 import docx2txt
 import pdfplumber
 from pickle import load
@@ -31,8 +29,8 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 import matplotlib.pyplot  as plt
 stop=set(stopwords.words('english'))
-from spacy.matcher import Matcher
-matcher = Matcher(nlp.vocab)
+# from spacy.matcher import Matcher
+# matcher = Matcher(nlp.vocab)
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 #----------------------------------------------------------------------------------------------------
