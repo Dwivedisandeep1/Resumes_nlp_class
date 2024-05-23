@@ -4,6 +4,7 @@ import numpy as np
 import streamlit as st
 from io import BytesIO
 import click
+!pip install spacy
 import spacy
 import docx2txt
 import pdfplumber
